@@ -1,0 +1,29 @@
+{
+    "expo": {
+        "name": "Myntra",
+        "slug": "shop-smart-style-sync",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./public/favicon.ico",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.shopsmart.stylesync"
+        },
+        "web": {
+            "favicon": "./public/favicon.ico"
+        }
+    }
+}
