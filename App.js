@@ -15,7 +15,7 @@ Notifications.setNotificationHandler({
 
 export default function App() {
     const webViewRef = useRef(null);
-    const localUrl = 'http://10.191.153.40:8080';
+    const localUrl = 'https://myntra-clone-1-xftd.onrender.com';
 
     useEffect(() => {
         registerForPushNotificationsAsync();
