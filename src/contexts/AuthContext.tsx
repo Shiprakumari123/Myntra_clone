@@ -49,7 +49,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       password,
       options: {
         data: { full_name: fullName },
-        emailRedirectTo: window.location.origin
+        emailRedirectTo: "https://myntra-clone-1-xftd.onrender.com"
       },
     });
     return { error };
